@@ -1,0 +1,156 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+#motto {
+    font-size: 2.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    height: 60px;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+
+
+#title {
+    background-color:#97e5ef;
+    font-size: large;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #97e5ef;
+}
+#press {
+    background-color: #97e5ed;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+#cta {
+    background-color: #97e5ed;
+    height: 400px;
+    position: relative;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+.favic {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.favic:hover {
+    color: #97e5ed;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+.navbar-brand {
+    font-size:33px; 
+    margin-left: 110px;
+}
+.zoom {
+    transition: transform .2s;
+    margin-left: 180px;
+    width: 80%;
+  }
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  .andrewng {
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+  }
+  .feature-box {
+    padding: 5%;
+}
+
+  .press-item {
+      width: 15%;
+      margin: 20px 20px 50px;
+  }
+
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  
+.feature-title {
+    font-family: 'Quicksand-Bold', sans-serif;    
+}
+
+
+
+  .pricing-col {
+      padding: 3% 2%;
+      text-align: center;
+  }
+
+
+
+  .cta-title {
+      position: relative;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 100px;
+      width: 50%;
+      
+      margin-left: 25%;
+  }
+
+
+.footicon {
+    margin: 10px 10px 10px 10px;
+}
+
+.favic2 {
+    color:#97e5ed;
+    padding-bottom: 20px;
+}
+
+.favic2:hover {
+    color: #2a35d5;
+    ;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .zoom {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
